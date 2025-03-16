@@ -6,13 +6,13 @@
   --color-bg-primary: #DCDCDC;
   --color-bg-secondary: #242424;
   --color-bg-footer: #151515;
-  --color-white: #ffffff;
+  --color-white: #000000;
   --color-text: #676767;
   --color-border: #373737;
 
   /* Font & Typography
   ___________________*/
-  --ff-body: "Space Grotesk", sans-serif;
+  --ff-body: "Poppins", sans-serif;
   /* font sizes */
   --fs-sm: 1.4rem;
   --fs-md: 1.6rem;
@@ -361,13 +361,14 @@ body {
   font-size: var(--fs-lg);
   text-align: center;
   margin-bottom: 3rem;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .skills__wrapper {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  color: #ffffff;
 }
 
 .skills__content {
@@ -383,6 +384,7 @@ body {
 .skills__subtitle {
   text-align: center;
   margin-bottom: 2rem;
+  color: #ffffff
 }
 
 .skills__item i {
@@ -391,8 +393,14 @@ body {
 
 /* Qualification
 --------------------------------------------------------------*/
+
 .qualification__wrapper {
   margin-bottom: 5rem;
+  display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center;
 }
 
 .qualification__content {
@@ -439,6 +447,11 @@ body {
 
 /* Services
 --------------------------------------------------------------*/
+.d-grid service__wrapper{
+  display: flex;
+  justify-content: center;
+}
+
 .service__card {
   background-color: var(--color-bg-secondary);
   box-shadow: var(--box-shadow);
@@ -447,25 +460,30 @@ body {
   max-width: 30rem;
   justify-self: center;
   transition: var(--transition);
+  
 }
 
 .service__card:hover {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-color: rgb(76, 68, 68);
 }
 
 .service__card:hover .service__link {
-  color: var(--color-white);
+  /* color: var(--color-white); */
+  color: #4cd042;
 }
 
 .service__icon {
   font-size: 3.5rem;
-  color: var(--color-white);
+  /* color: var(--color-white); */
   margin-bottom: 1.5rem;
+  color: #4cd042;
 }
 
 .service__title {
   font-size: var(--fs-lg);
   margin-bottom: 3rem;
+  color: #4cd042;
 }
 
 /* Projects
@@ -597,25 +615,29 @@ body {
 .footer__title {
   font-size: var(--fs-lg);
   margin-bottom: 2rem;
+  color: #acacac;
 }
 
 .footer__social-list {
   display: flex;
   gap: 3rem;
+
 }
 
 .footer__social-link {
   font-size: 2rem;
-  color: var(--color-white);
+  /* color: var(--color-white); */
   transition: var(--transition);
+  color: #acacac;
 }
 
 .footer__contact {
   font-size: var(--fs-lg);
-  color: var(--color-white);
+  /* color: var(--color-white); */
   font-weight: var(--fw-bold);
   text-decoration: underline;
   transition: var(--transition);
+  color: #acacac;
 }
 
 .footer__social-link:hover,
