@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 :root {
     /* Colors*/
   --color-primary: #555879;             /* Soft Gold (main accent) same d*/
@@ -19,7 +21,8 @@
   --transition: all 0.3s ease;
     /* Font & Typography
     ___________________*/
-    --ff-body: "Space Grotesk", sans-serif; /* Changed to Space Grotesk as per HTML import */
+      --ff-body: "Poppins", sans-serif;
+
     /* font sizes */
     --fs-sm: 1.4rem;
     --fs-md: 1.6rem;
@@ -27,6 +30,7 @@
     --fs-xl: 2.4rem;
     --fs-xxl: 3.2rem;
     --fs-biggest: clamp(3rem, 8vw, 5rem);
+
     /* font weight */
     --fw-regular: 400;
     --fw-medium: 500;
@@ -338,6 +342,7 @@ body {
 .hero__content {
     text-align: center;
 }
+
 
 .hero__title {
     font-size: var(--fs-biggest);
