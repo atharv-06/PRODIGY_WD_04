@@ -1,22 +1,22 @@
-/* ----- POPPINS FONT Link ----- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+    /* Colors*/
+  --color-primary: #555879;             /* Soft Gold (main accent) same d*/
+  --color-primary-dark: #98A1BC;        /* Deeper Gold for hover/focus */
+  
+  --color-secondary: #DED3C4;           /* Warm Bronze (subtle accents) */
+  --color-accent: #F4EBD3;              /* Champagne highlight*/
 
-/* ----- VARIABLES ----- */
-:root{
-    --body-color: rgb(250, 250, 250);
-    --color-white: rgb(255, 255, 255);
+  --color-bg-primary: #fdfcf9;          /* Ivory white (main background) */
+  --color-bg-secondary: #ffffff;        /* Pure white (cards/containers) */
+  --color-bg-footer: #f5f5f5;           /* Very light grey for footer */
 
-    --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+  --color-text-dark: #2e2e2e;           /* Elegant dark gray for headings */
+  --color-text-light: #555555;          /* Mid gray for body text */
+  --color-text-secondary: #555879;      /* Gold highlight for small texts same d*/
 
-    --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
-
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
-    --first-shadow-color: rgba(0, 0, 0, 0.1);
-
-}
+  --color-border: #e6decf;              /* Soft warm border*/
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --transition: all 0.3s ease;
     /* Font & Typography
     ___________________*/
     --ff-body: "Space Grotesk", sans-serif; /* Changed to Space Grotesk as per HTML import */
